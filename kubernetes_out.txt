@@ -1,0 +1,7 @@
+Andy@DESKTOP-5TJUC1L MINGW64 /c/udacity/Project4/project-ml-microservice-kubernetes (main)
+$ ./run_kubernetes.sh
+NAME    READY   STATUS    RESTARTS   AGE
+mlapp   1/1     Running   0          88s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
