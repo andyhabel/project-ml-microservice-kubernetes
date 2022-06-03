@@ -48,3 +48,20 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Explanation of files in repository
+
+
+| File/Directory        | Description                          |
+|-----------------------|--------------------------------------|
+| /.circleci/config.yml | circleci configuration file          |
+| /model_data           | model data used for machine learning |
+| /output_txt_files     | results from runs of application     |
+| Dockerfile            | Creates application and dependencies |
+| README.md             | Project description                  |
+| app.py                | Python web app returning prediction  |
+| make_prediction.sh    | Calls app to generate prediction     |
+| requirements.txt      | dependencies for python              |
+| run_docker.sh         | loads container to docker            |
+| run_kubernetes.sh     | loads container to kubernetes        |
+| upload_docker.sh      | uploads docker image to registry     |
